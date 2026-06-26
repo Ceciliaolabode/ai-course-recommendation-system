@@ -1,5 +1,66 @@
 # 🎓 AI Course Recommendation System
 
+A semantic course recommendation system powered by **Sentence Transformers** and **FAISS**, exposed via **FastAPI** and ready for production use.
+
+---
+
+## 🚀 Features
+
+- 🔍 Semantic search using transformer embeddings
+- ⚡ Fast similarity search using FAISS
+- 🌐 REST API built with FastAPI
+- 🧠 NLP-powered tagging system
+- 📊 Course recommendation engine
+
+---
+
+## 🧠 Tech Stack
+
+- Python
+- Sentence Transformers (MiniLM)
+- FAISS
+- FastAPI
+- Pandas
+- Streamlit (optional frontend)
+
+---
+
+## ⚙️ How it works
+
+1. Course descriptions are converted into embeddings
+2. FAISS stores vector representations
+3. User input is embedded using transformer model
+4. Nearest neighbors are retrieved using vector search
+
+---
+
+## 🚀 Run the API
+
+```bash
+uvicorn api:app --reload
+
+http://127.0.0.1:8000/docs
+
+Example API call: /recommend?course=Finance for Managers
+
+
+📷 Architecture
+
+User → FastAPI → SentenceTransformer → FAISS → Recommendations
+
+👩🏽‍💻 Author
+
+Cecilia Olabode
+
+
+
+
+
+
+
+Kindly find above an updated version.
+# 🎓 AI Course Recommendation System
+
 An NLP-powered content-based recommendation system that recommends similar online courses based on course descriptions, difficulty level, and skills.
 
 Built using **Python**, **Natural Language Processing (NLP)**, **Scikit-learn**, and **Streamlit**.
