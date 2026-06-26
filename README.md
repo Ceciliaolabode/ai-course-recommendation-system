@@ -143,6 +143,6 @@ The application allows users to:
 
 **Cecilia Olabode**
 
-AI Engineer | Machine Learning Enthusiast | Software Engineer
+AI/ML Engineer | AI Automation Specialist | Software Engineer
 
 Passionate about Artificial Intelligence, NLP, AI for Healthcare, AI Security, and building intelligent solutions for Africa.
